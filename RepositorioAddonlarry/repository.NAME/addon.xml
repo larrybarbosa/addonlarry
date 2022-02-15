@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="RepositorioAddonlarry.NAME" Addonlarry"REPO_NOME_AQUI" version="1.0" provider-name="Addonlarry">
+    <extension point="xbmc.addon.repository" name="Nome Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/larrybarbosa/addonlarry/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/larrybarbosa/addonlarry/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/larrybarbosa/addonlarry/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>REPO addonlarry</summary>
+        <description>addonlarry</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
